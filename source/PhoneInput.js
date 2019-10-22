@@ -1013,7 +1013,6 @@ export default class PhoneNumberInput extends PureComponent
 							autoComplete={ autoComplete }
 							{...numberInputProps}
 							{...phoneNumberInputProps}
-							ref={ this.storePhoneNumberInputInstance }
 							name={ name }
 							metadata={ metadata }
 							country={ country }
